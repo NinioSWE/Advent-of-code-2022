@@ -1,6 +1,5 @@
 file = open("input.txt")
 tempNum = 0
-highest = 0
 sumList = Array.new 
 file.each_line { |line|
     tempNum += line.to_i
